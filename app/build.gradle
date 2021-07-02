@@ -25,10 +25,10 @@ android {
 
     signingConfigs {
         debug {
-            keyAlias 'px3wv6a'
-            keyPassword 'android'
+            keyAlias 'xxxxxx'
+            keyPassword 'xxxxxx'
             storeFile new File(file(".").getAbsolutePath() + "/keystore/keystore-debug").getAbsoluteFile()
-            storePassword 'android'
+            storePassword 'xxxxxx'
         }
     }
 
